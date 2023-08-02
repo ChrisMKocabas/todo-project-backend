@@ -6,6 +6,7 @@ const { v4: uuidv4 } = require("uuid");
 const handleNewUser = async (req, res) => {
   const { error, value } = await validateSignup(req.body); // evaluate all fields
   if (error) {
+    console.log(error.details);
     return res.status(403).send(error.details);
   }
 
@@ -25,6 +26,7 @@ const handleNewUser = async (req, res) => {
       user_id: await uuidv4(),
       email: req.body.email,
       password: hashedPassword,
+      username: req.body.username,
       // fullname: req.body.fullname,
       // address: {
       //   street: req.body.address.street,

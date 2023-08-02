@@ -18,7 +18,7 @@ const handleRefreshToken = async (req, res) => {
         {
           user_id: decoded.user_id,
           email: decoded.email,
-          fullname: decoded.fullname,
+          username: decoded.username,
         },
         process.env.REFRESH_TOKEN_SECRET,
         { expiresIn: "7d" }
@@ -27,7 +27,7 @@ const handleRefreshToken = async (req, res) => {
         {
           user_id: decoded.user_id,
           email: decoded.email,
-          fullname: decoded.fullname,
+          username: decoded.username,
         },
         process.env.ACCESS_TOKEN_SECRET,
         { expiresIn: "1h" }

@@ -7,7 +7,7 @@ Saves Tokens to HTTP Cookie for extra security,
 and uses Joi as form validation middleware.
 
 ## Installation
-Clone the repository using git clone https://github.com/your-username/your-repo.git
+Clone the repository using git clone
 Install dependencies by running npm install
 Rename .env.example to .env and update the values as required
 Start the server by running npm start

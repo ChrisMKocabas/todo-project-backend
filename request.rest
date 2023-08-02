@@ -33,7 +33,7 @@ POST http://localhost:4000/auth
 Content-Type: application/json
 
 {
-    "email": "muhammed@gmail.com",
+    "email": "chris@gmail.com",
     "password" : "testpassword"
 } 
 
@@ -44,10 +44,10 @@ POST http://localhost:4000/register
 Content-Type: application/json
 
 {
-    "fullname" : "muhammed",
-    "email": "muhammed@gmail.com",
-    "password" : "testpassword",
-    "confirmPassword" : "testpassword",
+    "fullname" : "chris",
+    "email": "chris@gmail.com",
+    "password" : "testpassword12",
+    "confirmPassword" : "testpassword12",
     "address": {
         "street": "Testst",
         "city":"testcity",

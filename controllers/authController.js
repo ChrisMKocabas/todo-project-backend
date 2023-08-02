@@ -22,7 +22,7 @@ const handleLogin = async (req, res) => {
       {
         user_id: foundUser.user_id,
         email: foundUser.email,
-        fullname: foundUser.fullname,
+        username: foundUser.username,
       },
       process.env.ACCESS_TOKEN_SECRET,
       {
@@ -34,7 +34,7 @@ const handleLogin = async (req, res) => {
       {
         user_id: foundUser.user_id,
         email: foundUser.email,
-        fullname: foundUser.fullname,
+        username: foundUser.username,
       },
       process.env.REFRESH_TOKEN_SECRET,
       { expiresIn: "1d" }
@@ -43,7 +43,6 @@ const handleLogin = async (req, res) => {
     // Saving refreshToken with current user
     foundUser.refreshToken = refreshToken;
     const result = await foundUser.save();
-    console.log(result);
 
     // Creates Secure Cookie with refresh token
     res.cookie("jwt", refreshToken, {
@@ -52,7 +51,7 @@ const handleLogin = async (req, res) => {
       sameSite: "None",
       maxAge: 24 * 60 * 60 * 1000,
     });
-
+    console.log({ accessToken });
     res.json({ accessToken });
   } else {
     res.status(400).send("Wrong password entered!");
