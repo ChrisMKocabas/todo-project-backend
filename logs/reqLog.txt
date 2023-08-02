@@ -1549,3 +1549,4 @@
 20230802	15:50:04	3b3b44ed-4029-420f-ac70-944ec62ed775	OPTIONS	http://localhost:5173	/todos
 20230802	15:50:04	56e36bf4-ac0a-42c5-bf74-b25c983b834a	GET	http://localhost:5173	/todos
 20230802	15:50:04	ccbaf621-92a4-4d31-bd91-d45d97305d01	GET	http://localhost:5173	/todos
+20230802	19:40:09	594cf1c6-1775-44cc-9091-f4f106eec8d6	POST	undefined	/auth

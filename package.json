@@ -2,10 +2,10 @@
   "name": "api-auth",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "devStart": "nodemon server.js",
-    "devStartAuth": "nodemon authServer.js"
+    "devStart": "nodemon app.js",
+    "devStartAuth": "nodemon app.js"
   },
   "author": "Muhammed Kocabas",
   "license": "ISC",
@@ -21,8 +21,10 @@
     "joi": "^17.7.0",
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^6.9.1",
-    "nodemon": "^3.0.1",
     "path": "^0.12.7",
     "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
