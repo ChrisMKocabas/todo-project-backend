@@ -1537,3 +1537,15 @@
 20230802	14:55:16	e7906a12-b2a5-4736-9a26-7332b183f201	GET	http://localhost:5173	/todos
 20230802	15:21:13	b009fc7c-cfb4-4a13-b37d-7c71f49056fb	OPTIONS	http://localhost:5173	/auth
 20230802	15:21:13	4a926e67-de7c-4be0-9afd-150f13510b82	POST	http://localhost:5173	/auth
+20230802	15:50:00	7c28bed7-77e0-4a6d-bdbb-e6b404a3135d	OPTIONS	http://localhost:5173	/auth
+20230802	15:50:00	b6ec2c23-7b5a-409c-8070-e42431f0b879	POST	http://localhost:5173	/auth
+20230802	15:50:00	b0ae7367-8770-4694-8dcd-a067e8b2d260	OPTIONS	http://localhost:5173	/todos
+20230802	15:50:00	5af7d88b-c5e9-4b93-9a10-377bb335bd7d	OPTIONS	http://localhost:5173	/todos
+20230802	15:50:00	618a59ad-2e00-4eea-8103-7389cead3eab	GET	http://localhost:5173	/todos
+20230802	15:50:00	fdbf51d4-4e51-452c-a3c9-3f0dbcd4b652	GET	http://localhost:5173	/todos
+20230802	15:50:03	88515597-e99c-4e61-97c4-90f4248efd01	GET	http://localhost:5173	/todos
+20230802	15:50:03	8e4fa766-edce-409f-89d1-77552c35eab6	GET	http://localhost:5173	/todos
+20230802	15:50:04	b9f0563c-efdc-4e39-942d-05cbf313322c	OPTIONS	http://localhost:5173	/todos
+20230802	15:50:04	3b3b44ed-4029-420f-ac70-944ec62ed775	OPTIONS	http://localhost:5173	/todos
+20230802	15:50:04	56e36bf4-ac0a-42c5-bf74-b25c983b834a	GET	http://localhost:5173	/todos
+20230802	15:50:04	ccbaf621-92a4-4d31-bd91-d45d97305d01	GET	http://localhost:5173	/todos
